@@ -1,0 +1,37 @@
+Question 2 - Explanation
+
+1. mkdir ~/Question2
+Creates a folder for Question 2.
+
+2. cd ~/Question2
+Moves into the Question2 folder.
+
+3. mkdir Project_Workspace
+Creates the project workspace directory.
+
+4. ls -l
+Displays directory contents with detailed information.
+
+5. touch Project_Workspace/project.txt
+Creates an empty file named project.txt.
+
+6. ls -l Project_Workspace
+Displays the file permissions before modification.
+
+7. chmod 700 Project_Workspace/project.txt
+Changes permissions so only the owner has full access.
+
+8. ls -l Project_Workspace
+Verifies the updated permissions.
+
+9. ls -ld Project_Workspace
+Displays ownership and permissions of the directory.
+
+10. umask
+Shows the default permission mask.
+
+11. nano Project_Workspace_Report.txt
+Creates the project workspace report.
+
+12. cat Project_Workspace_Report.txt
+Verifies the report contents.

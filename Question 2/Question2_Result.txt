@@ -1,0 +1,17 @@
+===== ls -l =====
+drwxr-xr-x 2 venkatesh venkatesh 4096 Project_Workspace
+
+===== ls -l Project_Workspace =====
+-rw-r--r-- 1 venkatesh venkatesh 0 project.txt
+
+===== chmod completed =====
+Permissions changed successfully.
+
+===== Updated Permissions =====
+-rwx------ 1 venkatesh venkatesh 0 project.txt
+
+===== Directory Details =====
+drwxr-xr-x 2 venkatesh venkatesh 4096 Project_Workspace
+
+===== umask =====
+0022
