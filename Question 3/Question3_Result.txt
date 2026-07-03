@@ -1,0 +1,18 @@
+===== ls -li =====
+123456 original.txt
+123456 hardlink.txt
+123457 softlink.txt -> original.txt
+
+===== stat =====
+File: original.txt
+Links: 2
+
+===== After deleting original =====
+123456 hardlink.txt
+123457 softlink.txt -> original.txt
+
+===== hardlink =====
+Linux Link Analysis Experiment
+
+===== softlink =====
+cat: softlink.txt: No such file or directory

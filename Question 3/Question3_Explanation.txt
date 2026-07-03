@@ -1,0 +1,40 @@
+Question 3 - Explanation
+
+1. mkdir ~/Question3
+Creates a folder for Question 3.
+
+2. cd ~/Question3
+Moves into the Question3 folder.
+
+3. echo "Linux Link Analysis Experiment" > original.txt
+Creates the original file with sample content.
+
+4. ln original.txt hardlink.txt
+Creates a hard link to the original file.
+
+5. ln -s original.txt softlink.txt
+Creates a symbolic (soft) link.
+
+6. ls -li
+Displays inode numbers and detailed file information.
+
+7. stat original.txt
+Displays metadata such as inode, permissions and timestamps.
+
+8. rm original.txt
+Deletes the original file.
+
+9. ls -li
+Shows that the hard link remains while the symbolic link is broken.
+
+10. cat hardlink.txt
+Displays the contents through the hard link.
+
+11. cat softlink.txt
+Attempts to open the symbolic link after deletion of the original file.
+
+12. nano Link_Analysis_Report.txt
+Creates the report.
+
+13. cat Link_Analysis_Report.txt
+Verifies the saved report.
