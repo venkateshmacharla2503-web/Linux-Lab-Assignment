@@ -1,0 +1,37 @@
+Question 4 - Explanation
+
+1. mkdir ~/Question4
+Creates a folder for Question 4.
+
+2. cd ~/Question4
+Moves into the Question4 folder.
+
+3. echo "Linux File I/O Investigation" > logfile.txt
+Creates a sample file.
+
+4. lsof logfile.txt
+Displays processes currently using the file.
+
+5. ls -l /proc/$$/fd
+Shows the current shell's file descriptors.
+
+6. echo "This is normal output." > output.txt
+Redirects standard output into a file.
+
+7. cat output.txt
+Displays the redirected output.
+
+8. ls invalid_directory 2> error.txt
+Redirects the error message to a file.
+
+9. cat error.txt
+Displays the captured error message.
+
+10. ulimit -a
+Displays the resource limits of the current shell.
+
+11. nano IO_Investigation_Report.txt
+Creates the I/O investigation report.
+
+12. cat IO_Investigation_Report.txt
+Verifies the saved report.
