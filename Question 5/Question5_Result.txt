@@ -1,0 +1,18 @@
+===== lsblk =====
+NAME   SIZE TYPE MOUNTPOINT
+sda     50G disk
+└─sda1  50G part /
+
+===== mount =====
+/dev/sda1 on / type ext4 (rw,relatime)
+
+===== df -h =====
+Filesystem Size Used Avail Use%
+/dev/sda1 50G 18G 30G 38%
+
+===== df -i =====
+Filesystem Inodes IUsed IFree IUse%
+/dev/sda1 3276800 98500 3178300 4%
+
+===== du -sh =====
+24K .

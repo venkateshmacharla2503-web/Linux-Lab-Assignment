@@ -1,0 +1,28 @@
+Question 5 - Explanation
+
+1. mkdir ~/Question5
+Creates a folder for Question 5.
+
+2. cd ~/Question5
+Moves into the Question5 folder.
+
+3. lsblk
+Displays available storage devices and partitions.
+
+4. mount | column -t
+Displays mounted file systems in a formatted table.
+
+5. df -h
+Shows disk space usage in human-readable format.
+
+6. df -i
+Displays inode usage for mounted file systems.
+
+7. du -sh .
+Shows the size of the current directory.
+
+8. nano Storage_Assessment_Report.txt
+Creates the storage assessment report.
+
+9. cat Storage_Assessment_Report.txt
+Displays the report to verify it was saved correctly.
