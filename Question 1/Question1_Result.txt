@@ -1,0 +1,20 @@
+===== whoami =====
+venkatesh
+
+===== groups =====
+venkatesh sudo adm
+
+===== echo $SHELL =====
+/bin/bash
+
+===== pwd =====
+/home/venkatesh/Question1
+
+===== ls -la =====
+total 16
+drwxr-xr-x 2 venkatesh venkatesh 4096 Jul 3 10:00 .
+drwxr-xr-x 8 venkatesh venkatesh 4096 Jul 3 09:59 ..
+-rw-r--r-- 1 venkatesh venkatesh  450 Environment_Report.txt
+
+===== ping =====
+4 packets transmitted, 4 received, 0% packet loss

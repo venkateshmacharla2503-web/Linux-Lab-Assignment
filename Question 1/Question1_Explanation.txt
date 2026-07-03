@@ -1,0 +1,31 @@
+Question 1 - Explanation
+
+1. mkdir Question1
+Creates a new directory named Question1.
+
+2. cd Question1
+Changes the current working directory to Question1.
+
+3. whoami
+Displays the username of the currently logged-in user.
+
+4. groups
+Shows all groups the current user belongs to.
+
+5. echo $SHELL
+Displays the default shell being used.
+
+6. pwd
+Displays the current working directory.
+
+7. ls -la
+Lists all files and directories including hidden files with detailed information.
+
+8. ping -c 4 google.com
+Tests internet connectivity by sending four packets to Google.
+
+9. nano Environment_Report.txt
+Creates and edits the report file.
+
+10. cat Environment_Report.txt
+Displays the saved report to verify its contents.
